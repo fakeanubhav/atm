@@ -1,0 +1,23 @@
+<%- include("partials/header.ejs") -%>
+
+    <div class="heading">
+        <h1>
+            Check Balance
+        </h1>
+    </div>
+
+    <div class="main-form balance-check">
+        <form action="/balance" method="POST">
+            <input type="text" placeholder=" Your Username" name="username" required>
+            <br>
+            <input type="text" placeholder=" Card number" name="cardnum" required>
+            <br>
+            <input type="text" placeholder=" Expiry Year" name="exp" required>
+            <br>
+            <input type="text" placeholder=" CVV" name="cvv" required>
+            <br>
+            <button class="main-btn" type="submit">Check</button>
+        </form>
+    </div>
+
+    <%- include("partials/footer.ejs") -%>

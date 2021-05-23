@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") -%>
+
+    <div class="heading">
+        <h1>
+            Get Your money Out
+        </h1>
+    </div>
+    <div class="main-form">
+        <form action="/atm" method="POST">
+            <input type="text" placeholder=" Your Username" name="username" required>
+            <br>
+            <input type="password" placeholder=" Your Password" name="password" required>
+            <br>
+            <input type="text" placeholder=" How much money do you want?" name="withdraw" required>
+            <br>
+            <button class="main-btn" type="submit">Gimme</button>
+        </form>
+    </div>
+
+    <%- include("partials/footer.ejs") -%>

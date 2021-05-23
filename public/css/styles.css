@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+body {
+    font-family: 'B612', sans-serif;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, .5) url("../img/background.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
+
+/* HEADING */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-left p {
+    font-family: 'Caveat', cursive;
+    font-size: 4em;
+    margin: 0;
+    padding-left: .7em;
+    padding-top: .2em;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list p {
+    padding: 1.2em;
+    color: white;
+}
+
+.nav-list p:hover {
+    color: #3d84b8;
+}
+
+/* HEADING */
+
+/* GENERATE */
+
+.heading {
+    text-align: center;
+    font-size: larger;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card img {
+    width: 35%;
+    border-radius: 10px;
+}
+
+.left-card {
+    margin-right: 2em;
+}
+
+.right-card {
+    margin-left: 2em;
+}
+
+/* GENERATE END */
+
+/* SIGNUP START */
+
+.main-form {
+    text-align: center;
+}
+
+.main-form input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 25%;
+    margin: 1em;
+    height: 2em;
+    background: rgba(0, 0, 0, .4);
+    border: 1.4px solid gray;
+    padding: 5px 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+.main-form button {
+    width: 8%;
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.main-btn {
+    padding: 8px 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: #f0c929;
+    cursor: pointer;
+}
+
+/* SIGNUP END */
+
+.warning {
+    text-align: center;
+    color: #faf1e6;
+}
+
+.card {
+    position: relative;
+}
+
+.cardnum, .year, .cvv {
+    position: absolute;
+}
+
+.cardnum {
+    left: 10.8em;
+    top: 5em;
+}
+
+.year {
+    left: 10.8em;
+    top: 7.2em;
+}
+
+.cvv {
+    right: 8.1em;
+    top: 2.9em;
+    font-style: italic;
+    color: black;
+}
+
+.anim {
+    text-align: center;
+}
+
+.anim img {
+    width: 20%;
+    border-radius: 50%;
+}
+.footer
+{
+    
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    height: 8%;
+    width:100%;
+    background: rgba(0, 0, 0, .6);
+}
+.footer a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover
+{
+    color: #3d84b8;
+    text-decoration: underline;
+}
