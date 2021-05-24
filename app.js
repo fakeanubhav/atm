@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://admin-anubhav:Anubhav123@cluster0.rq0nn.mongodb.net/atm-machine-project", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect("mongodb+srv://admin-anubhav:<password>@cluster0.rq0nn.mongodb.net/atm-machine-project", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
 const userSchema = new mongoose.Schema({
   uid: String,
   name: String,
